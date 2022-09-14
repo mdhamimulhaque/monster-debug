@@ -39,6 +39,39 @@
                     use it's value outside this block it's called block scope. let and const maintain block scope.</li>
             </ul>
         </section>
+        <section>
+            <h2> What is even loop in JavaScript?</h2>
+            <ul>
+                <li>The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all
+                    operations on a single thread, but using a few smart data structures, it gives us the illusion of
+                    multi-threading.
+                    The call stack is responsible for keeping track of all the operations in line to be executed.
+                    Whenever a function is finished, it is popped from the stack.
+                    The event queue is responsible for sending new functions to the stack for processing. It follows the
+                    queue data structure to maintain the correct sequence in which all operations should be sent for
+                    execution.
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>How many ways we can get undefined?</h2>
+            <ol>
+                <p>There are several ways to get undefined.</p>
+                <li>If we set 2 / 3……parameter but pass 1 value (passing value is not equal to define the total number
+                    of parameters)</li>
+                <li> If we declare a variable but not set it’s value</li>
+                <li>If we use the return key inside the function but do not return any value</li>
+                <li>If we want to use function value inside variable but don’t return anything </li>
+                <li>If we try to access any object property which is not declared</li>
+                <li>When we set any value as undefined</li>
+                <li>Inside the array, if we try to find a value which index number is not available</li>
+                <li>If we delete any element from an array. (we should not use this. Use splice for this)</li>
+            </ol>
+        </section>
+
+
+
 
 
     </main>
